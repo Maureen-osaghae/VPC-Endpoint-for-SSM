@@ -28,5 +28,7 @@ Now let’s create the security group with an ingress rule:
 
 <img width="860" height="338" alt="image" src="https://github.com/user-attachments/assets/d4ee0ded-dcfc-4f18-92ef-ae47ef699e2b" />
 
+We’ve got everything we need to test deployment of our VPC endpoints and security group, so let’s go ahead and do that in the next lesson. 
+
 
 
