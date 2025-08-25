@@ -28,7 +28,24 @@ Now let’s create the security group with an ingress rule:
 
 <img width="860" height="338" alt="image" src="https://github.com/user-attachments/assets/d4ee0ded-dcfc-4f18-92ef-ae47ef699e2b" />
 
-We’ve got everything we need to test deployment of our VPC endpoints and security group, so let’s go ahead and do that in the next lesson. 
+We’ve got everything we need to test deployment of our VPC endpoints and security group, so let’s go ahead and do that in the next section. 
+
+<h1>Deploying Interface VPC endpoints for SSM with Terraform</h1>
+
+ <h2>Configure your AWS CLI</h2>
+
+ <img width="686" height="125" alt="image" src="https://github.com/user-attachments/assets/1a8d1677-8f8c-40d2-9b56-21bc68abcd9d" />
+
+ Run the terraform init command to initializes the working directory containing  our Terraform configuration files
+
+ <img width="490" height="260" alt="image" src="https://github.com/user-attachments/assets/88be9157-f2f5-43ee-8a0b-b24e73fe7d07" />
+
+ Run terraform validate to the configuration files in a directory.
+
+ <img width="551" height="110" alt="image" src="https://github.com/user-attachments/assets/19d59b5b-8645-4f0f-b2fd-b19c00c2cf45" />
+
+
+
 
 
 
