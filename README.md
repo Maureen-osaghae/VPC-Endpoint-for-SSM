@@ -44,6 +44,21 @@ We’ve got everything we need to test deployment of our VPC endpoints and secur
 
  <img width="551" height="110" alt="image" src="https://github.com/user-attachments/assets/19d59b5b-8645-4f0f-b2fd-b19c00c2cf45" />
 
+Run the terraform plan command
+ 
+Go ahead and run a plan to see that four new resources will be created (for a total of 24): two VPC endpoints, the security group and one ingress rule.
+
+<img width="635" height="164" alt="image" src="https://github.com/user-attachments/assets/6fab6338-5c5d-42f9-ad1f-f2c438d6222d" />
+
+Now, run terraform apply:
+
+<img width="943" height="294" alt="image" src="https://github.com/user-attachments/assets/c67de641-817e-4ffb-bc7e-b81af423d16c" />
+<img width="650" height="114" alt="image" src="https://github.com/user-attachments/assets/556ca54a-1187-4633-81cd-b5cc2f704f2c" />
+
+<h1>Conclusion</h1>
+We’re well on our way to completing this project now that we have our VPC endpoints for SSM. Our next step is to create our EC2 instance module, so go ahead and complete this lab and I’ll see you in the next lesson
+
+
 
 
 
